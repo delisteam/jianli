@@ -1,4 +1,26 @@
-﻿@charset="utf-8";
+﻿@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix(http://), url-prefix(https://){
+    @font-face { font-family: Simsun;unicode-range: U+2E80-FFFF; src: local('微软雅黑')}
+    @font-face { font-family: Simsun;unicode-range: U+0000-2E7F; src: local('Segoe UI')}
+    @font-face { font-family: NSimsun;unicode-range: U+2E80-FFFF; src: local('微软雅黑')}
+    @font-face { font-family: NSimsun;unicode-range: U+0000-2E7F; src: local('Segoe UI')}
+    @font-face { font-family: Simhei;unicode-range: U+2E80-FFFF; src: local('微软雅黑')}
+    @font-face { font-family: Simhei;unicode-range: U+0000-2E7F; src: local('Segoe UI')}
+    @font-face { font-family: '宋体';unicode-range: U+2E80-FFFF; src: local('微软雅黑')}
+    @font-face { font-family: '宋体';unicode-range: U+0000-2E7F; src: local('Segoe UI')}
+    @font-face { font-family: '新宋体';unicode-range: U+2E80-FFFF; src: local('微软雅黑')}
+    @font-face { font-family: '新宋体';unicode-range: U+0000-2E7F; src: local('Segoe UI')}
+    @font-face { font-family: '黑体';unicode-range: U+2E80-FFFF; src: local('微软雅黑')}
+    @font-face { font-family: '黑体';unicode-range: U+0000-2E7F; src: local('Segoe UI')}
+    /* 分别替换，宋体，新宋体，黑体为微软雅黑 */
+    @font-face { font-family: monospace;unicode-range: U+2E80-FFFF; src: local('YaHei Consolas Hybrid')}
+    @font-face { font-family: 'monospace';unicode-range: U+2E80-FFFF; src: local('YaHei Consolas Hybrid')}
+    @font-face { font-family: Consolas;unicode-range: U+2E80-FFFF; src: local('YaHei Consolas Hybrid')}
+    @font-face { font-family: Lucida Console;unicode-range: U+2E80-FFFF; src: local('YaHei Consolas Hybrid')}
+    /* 替换常见的等宽字体 */
+}
+@charset="utf-8";
 .tit{
     height: 61px;
     text-align: center;
