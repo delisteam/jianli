@@ -1,9 +1,9 @@
-@charset="gb2312";
+ï»¿@charset="utf-8";
 .tit{
     height: 61px;
     text-align: center;
     padding-top: 55px;
-    font-family: Î¢ÈíÑÅºÚ;
+    font-family: å¾®è½¯é›…é»‘;
     font-size:24px;
      padding-bottom: 25px;
 }
@@ -19,7 +19,7 @@
 }
 .Prise-service .box{
     height: 310px;
-    font-family: ËÎÌå;
+    font-family: å®‹ä½“;
 
 }
 .Prise-service .box .box1{
@@ -91,14 +91,14 @@ font-size: 14px;
     color: white;
     line-height: 24px;
 }
-/*ĞÂÎÅ ¹¤×÷*/
+/*æ–°é—» å·¥ä½œ*/
 .New-job .Hot-New{
     width: 436px;
     height: 380px;
     padding-right: 116px;
 }
 .New-job .Hot-New p{
-    font-family:Î¢ÈíÑÅºÚ;
+    font-family:å¾®è½¯é›…é»‘;
     font-size: 18px;
     display: block;
     height: 31px;
@@ -192,7 +192,7 @@ float: left;
     margin-right: 28px;
 }
 
-/*ÓÑÇéÁ´½Ó*/
+/*å‹æƒ…é“¾æ¥*/
 .fri-link{
     height: 18px;
     padding-top: 18px;
@@ -214,7 +214,7 @@ float: left;
     font-style: normal;
     padding: 0 18px;
 }
-/*µ×²¿*/
+/*åº•éƒ¨*/
 .bottom{
     height: 326px;
     background: url("../images/index_70.jpg");
