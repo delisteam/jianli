@@ -1,0 +1,430 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="uft-8">
+    <title>2016.12.5-12.6开发网站</title>
+    <link href="style/reset.css" type="text/css" rel="stylesheet">
+    <link href="style/common.css" type="text/css" rel="stylesheet">
+    <link href="style/index.css" type="text/css" rel="stylesheet">
+</head>
+<script>
+
+     window.onload=function() {
+         function $(id){
+             return document.getElementById(id);
+         }
+         $("inputkey1").oninput=function(){
+            if(this.value==""){
+                $("message").style.display="block";
+            }
+            else
+            {
+                $("message").style.display="none";
+            }
+
+         }
+
+         $("btn").onclick=function(){
+             if($("inputkey1").value==""){
+                 alert("请输入内容再提交")
+             }
+             else if(isNaN($("inputkey1").value)){
+                 alert("请输入正确的产品编号")
+             }
+              else{
+                 alert("输入正确，跳转后台查询。。")
+
+             }
+         }
+
+
+
+
+         var lis=document.getElementById("lis").getElementsByTagName("li");
+         for(var i=0;i<=lis.length;i++)
+         {
+             lis[i].onmouseover=function(){
+                 this.className="current1";   //因为权重不够，在样式处必须加上！important
+             }
+             lis[i].onmouseout=function(){
+                 this.className="";
+             }
+         }
+
+
+     }
+
+</script>
+<body>
+<div class="header clearfloat">
+    <div class="header-top comWidth ">
+        <p>欢迎访问舜和农牧发展有限公司网站<span><a href="">在线咨询</a><i>丨</i><a href="">收藏本站</a><i>丨</i><a href="">关于顺河</a><i>丨</i><a href="">网站地图</a><i>丨</i></span></p>
+    </div>
+    <div class="header-mid">
+        <div class="header-mid-content comWidth">
+            <div class="header-mid-content-left fl">
+                 <div class="logo-img fl"><img src="images/index_05.jpg"> </div>
+                <div class="logo-title fl clearfloat">
+                    <div class="line fl"><img src="images/index_09.jpg" alt=""> </div>
+                    <div class="provide fl">
+                    <p >规模养殖场专用益生素提供商</p>
+                    <article>The size of farms special probiotics provider</article>
+                    </div>
+                </div>
+            </div>
+            <div class="header-mid-content-right fr">
+               <div class="number">
+                   <p >咨询电话:</p>
+                   <b>4008-1234-81</b>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+<div class="header_bottom">
+    <div class="header-nav comWidth">
+        <ul class="clearfloat">
+            <li class="line"><a href="">首页</a> </li>
+            <li class="line"><a href="">抗生素</a> </li>
+            <li class="line"><a href="">发酵饲料</a></li>
+            <li class="line"><a href="">脱霉剂</a> </li>
+            <li class="line"><a href="">粪便发酵剂</a> </li>
+            <li class="line"><a href="">客户实证</a> </li>
+            <li class="line"><a href="">瞬和咨询</a> </li>
+            <li class="line"><a href="">关于顺和</a> </li>
+            <li class="line"><a href="">联系我们</a> </li>
+        </ul>
+    </div>
+
+</div>
+<div class="hot-title comWidth">
+    <p>热门关键词>> 液体益生素、乳酸霉休眠、加酶益生素、产酶益生素、益生素的作用</p>
+    <div class="search-box">
+    <form class="form1">
+        <select name="cars"class="select">
+            <option value="saab" class="select">全部产品</option>
+            <option value="saab" style="background-color:red">绿</option>
+            <option value="fiat"style="background-color:orange">蓝</option>
+            <option value="audi" style="background-color:wheat">黑</option>
+            <option value="audi" style="background-color: aqua">白</option>
+            <option value="saab" style="background-color: blueviolet">红</option>
+            <option value="fiat" style="background-color: darkblue">紫</option>
+            <option value="audi" style="background-color: lightslategray">黄</option>
+
+        </select>
+    </form>
+    <form action="" method="get" class="form2 clearfloat">
+        <div class="out">
+    <input  type="text"  class="kuang" id="inputkey1">
+        <label for="inputkey1" id="message">请输入产品编号</label>
+            <input type="submit" value="提交" name="submitBtn"  class="btn" id="btn"/>
+            </div>
+
+    </form>
+    </div>
+</div>
+
+<div class="main-pic"></div>
+<div class="main-body">
+    <div class="main-body-hot comWidth clearfloat">
+        <div class="pro-class fl">
+             <h3>产品分类 <p>Product classification</p></h3>
+            <ul id="lis">
+                <li><a href=""><span>>></span>实用益生菌</a> </li>
+                <li><a href=""><span>>></span>猪用益生素</a> </li>
+                <li><a href=""><span>>></span>毛皮动物益生素</a> </li>
+                <li><a href=""><span>>></span>兔用益生素</a> </li>
+                <li><a href=""><span>>></span>水产用益生素</a> </li>
+                <li><a href=""><span>>></span>饲料厂用益生素</a> </li>
+                <li><a href=""><span>>></span>固体益生素</a> </li>
+                <li><a href=""><span>>></span>液体益生素</a> </li>
+                <li><a href=""><span>>></span>发酵饲料</a> </li>
+                <li><a href=""><span>>></span>粪便发酵剂</a> </li>
+            </ul>
+        </div>
+
+        <div class="pro-pic fr">
+            <h2>热销产品<b>Hot products</b></h2>
+               <div class="pro-pic-content">
+                   <div class="pro-pic-box"><img src="images/index_31.jpg" alt="" /> </div>
+                   <div class="pro-pic-box"><img src="images/index_sup_03.jpg" alt="" /> </div>
+                   <div class="pro-pic-box"><img src="images/index_sup_05.jpg" alt="" /> </div>
+                   <div class="pro-pic-box nr"><img src="images/index_sup_07.jpg" alt="" /> </div>
+                   <div class="pro-pic-box"><img src="images/index_31.jpg" alt="" /> </div>
+                   <div class="pro-pic-box"><img src="images/index_sup_03.jpg" alt="" /> </div>
+                   <div class="pro-pic-box"><img src="images/index_sup_05.jpg" alt="" /> </div>
+                   <div class="pro-pic-box nr"><img src="images/index_sup_07.jpg" alt="" /> </div>
+
+               </div>
+        </div>
+    </div>
+</div>
+<script>
+
+
+</script>
+<div class="main-body-pic">
+     <div class="Breed comWidth clearfloat">
+         <div class="Breed-pic fl">
+             <img src="images/index_35.jpg"/>
+             <p>长毛兔养殖</p>
+         </div>
+         <div class="Breed-pic fl">
+             <img src="images/index_sup_13.jpg"/>
+             <p>养猪场</p>
+         </div>
+         <div class="Breed-pic fl">
+             <img src="images/index_sup_15.jpg"/>
+             <p>家禽养殖</p>
+         </div>
+         <div class="Breed-pic fl nr">
+             <img src="images/index_sup_17.jpg"/>
+             <p>牛奶养殖</p>
+         </div>
+     </div>
+</div>
+<div class="main-body-tech comWidth clearfloat">
+    <div class="tech-leftArea fl">
+       <h2>技术专区<p>Technology area</p></h2>
+         <div class="tech-text">
+             <dl><img class="fl" src="images/index_43.jpg"/>
+                 <dt>怎样购买
+                     <dd> 今天是网络高速发展的时代,网络缩短了时空距离,您足出户轻点鼠标就可找到好产品 。网上购买济南益生素产品最担心的就是受骗,舜和农牧采购顾问提醒您网上购买济南益生素时应注意</dd>
+                     <span>查看详情>></span>
+                 </dt>
+             </dl>
+             <dl><img class="fl" src="images/index_sup2_15.jpg"/>
+                 <dt>如何使用液体益生素
+                 <dd>舜和液体益生素——君乐宝是一种由高活性复合菌种和有机酸复配而成的液体微生态饲料添加剂,国内唯一的乳酸菌休眠技术，菌种活力高、保质期长、杂菌污染低，缓解应激一绝.</dd>
+                 <span>查看详情>></span>
+                 </dt>
+             </dl>
+             <div class="line"></div>
+             <ul>
+                 <li>>><a href="">如何使用液体益生素性复合菌种和有机</a><span>03-26</span> </li>
+                 <li>>><a href="">而成的液体微生态饲料添加剂</a><span>03-20</span> </li>
+                 <li>>><a href="">济南舜和农牧发展有限公司</a><span>02-24</span> </li>
+                 <li>>><a href="">益生素、预混料、发酵饲料、脱霉剂</a><span>02-11</span> </li>
+                 <li>>><a href="">专业生产厂家</a><span>02-05</span> </li>
+             </ul>
+         </div>
+    </div>
+    <div class="tech-rightArea fl">
+           <div class="customer-case">
+               <h3>客户案例<span>Customer case</span></h3>
+               <div class="line"></div>
+               <div class="Case clearfloat">
+                   <div class="chest">
+                       <img src="images/index_39.jpg" width="173" height="117" alt="">
+                       <h4>野猪养殖</h4>
+                       <p>&nbsp;&nbsp;技术先进，针对国内毛皮动物营养需要，减少饲料损耗，降低饲料成本。</p>
+                   </div>
+                   <div class="chest">
+                       <img src="images/index_sup2_03.jpg" width="173" height="117" alt="">
+                       <h4>养猪场</h4>
+                       <p>&nbsp;&nbsp;最新的缓释工艺，精心调配而成，满足毛皮动物皮毛生长的各种营养需求。</p>
+                   </div>
+                   <div class="chest nr">
+                       <img src="images/index_sup2_05.jpg" width="173" height="117" alt="">
+                       <h4>鸽子养殖</h4>
+                       <p>&nbsp;&nbsp;营养更全面，减少或杜绝营养代谢病的发生，增强其免疫力及抵抗力。</p>
+                   </div>
+                   <div class="chest">
+                       <img src="images/index_sup2_10.jpg" width="173" height="117" alt="">
+                       <h4>养鸡场</h4>
+                       <p>&nbsp;&nbsp;用氨基酸平衡理论，采用最新的缓释工艺，精心调配而成，营养更全面。</p>
+                   </div>
+                   <div class="chest">
+                       <img src="images/index_sup2_12.jpg" width="173" height="117" alt="">
+                       <h4>养鸽厂</h4>
+                       <p>&nbsp;&nbsp;减少饲料损耗，降低饲料成本，营养更全面，其免疫力及抵抗力，提高生长速度。</p>
+                   </div>
+                   <div class="chest nr">
+                       <img src="images/index_sup2_13.jpg" width="173" height="117" alt="">
+                       <h4>肉牛养殖</h4>
+                       <p>采用氨基酸平衡理论,可显著提高自配饲料的利用率，减少或杜绝营养代谢病的发生。</p>
+                   </div>
+               </div>
+               <div class="search-bar clearfloat">
+                   <form class="form1">
+                   <input type="text" value="案例搜索" class="anli">
+                   <input type="submit" value="搜索" name="submitBtn"  class="search_btn"/>
+                    </form>
+                   <form class="form2">
+                       <input type="text" value="产品" class="anli">
+                   </form>
+                   <form class="form3">
+                       <input type="text" value="山东省" class="anli">
+                       <input type="text" value="济南市" class="anli">
+                   </form>
+                   <form class="form4">
+                   <select name="cars" class="select">
+                       <option value="saab" class="select">—请选择—</option>
+                       <option value="saab" class="select">杭州</option>
+                       <option value="fiat" class="select">西湖区</option>
+                       <option value="audi" class="select">文三路</option>
+                       <option value="audi" class="select">五联西苑</option>
+                       <option value="saab" class="select">97号</option>
+                       <option value="saab" class="select">殷晨东</option>
+                       <option value="saab" class="select">收</option>
+                   </select>
+                   </form>
+               </div>
+           </div>
+    </div>
+</div>
+<div class="certificate clearfloat" >
+   <div class="demo-wrap comWidth clearfloat">
+       <div class="left-pic fl"><img src="images/index_22.jpg" width="16" height="126"/> </div>
+    <div id="demo" class="comWidth fl">
+        <div id="indemo">
+            <div id="indemo" class="fl">
+              <div id="demo1" class="fl">
+                  <a href=""><img src="images/index_sup2_22.jpg"/> </a>
+                  <a href=""><img src="images/index_sup2_25.jpg"/> </a>
+                  <a href=""><img src="images/index_sup2_27.jpg"/> </a>
+                  <a href=""><img src="images/index_sup2_30.jpg"/> </a>
+                  <a href=""><img src="images/index_53.jpg"/> </a>
+              </div>
+                <div id="demo2" class="fl"></div>
+        </div>
+
+        </div>
+
+    </div>
+       <div class="right-pic fl"><img src="images/index_33.jpg" width="16" height="126"/> </div>
+   </div>
+
+    <script >
+        <!--
+        var speed=10;
+        var tab=document.getElementById("demo");
+        var tab1=document.getElementById("demo1");
+        var tab2=document.getElementById("demo2");
+        tab2.innerHTML=tab1.innerHTML;
+        function Marquee(){
+            if(tab2.offsetWidth-tab.scrollLeft<=0)
+                tab.scrollLeft-=tab1.offsetWidth
+            else{
+                tab.scrollLeft++;
+            }
+        }
+        var MyMar=setInterval(Marquee,speed);
+        tab.onmouseover=function() {clearInterval(MyMar)};
+        tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+        -->
+    </script>
+
+</div>
+<div class="intosunhe comWidth clearfloat">
+    <div class="enter-sunhe fl">
+        <h3>走近舜河<span>Into the Shunhe</span></h3>
+        <div class="enter-sunhe-box">
+        <img src="images/index_67.jpg" width="289" height="153" alt=""/>
+        <p> 舜和农牧发展有限公司坐落于经济高速发展的山东省会——泉城济南。公司工业园区紧邻灵岩寺风景区，环境优美，交通便利，距离104国道300米，京福高速5京福高速500米。公司占地面积20000平方米，建筑面积5000平方米。拥有国内领先的研发实验设施和微生物发酵、饲料生产、蛋品加工三套生产流水线。</p>
+        </div>
+    </div>
+
+    <div class="sunhe-info fl">
+        <h3>舜河资讯<span>Shunhe information</span></h3>
+        <div class="sunhe-info-box clearfloat">
+           <div class="img-box fl"> <img src="images/index_64.jpg"/></div>
+            <div class="article-list fl">
+                <dl>
+                    <dt><a href="">营销实战培训</a>
+                        <dd>中国畜牧电商网络营销实战培训在济<span>03-26</span></dd>
+                    <dd></dd>
+                    </dt>
+                </dl>
+                <dl>
+                    <dt><a href="">抗生素使用</a>
+                    <dd>抗生素滥用在畜禽养殖中的危害<span>03-24</span></dd>
+                    </dt>
+                </dl>
+                <dl>
+                    <dt><a href="">益生素</a>
+                    <dd>中养殖中鸡脱肛和啄肛的解决方案啄肛的解<span>01-08</span></dd>
+                    </dt>
+                </dl>
+                <dl>
+                    <dt><a href="">肠常好</a>
+                    <dd>降低畜禽舍氨气危害的主要措施<span> 12-22</span></dd>
+                    </dt>
+                </dl>
+                <dl>
+                    <dt><a href="">公司资讯</a>
+                    <dd>热烈庆祝济南舜和农牧2014年第三季度网络营销会<span>11-19</span></dd>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="express-lane">
+    <div class="express-content comWidth">
+        <h3>快速通道<span>Express Lane</span></h3>
+        <div class="line"></div>
+        <div class="express-txt clearfloat">
+            <div class="txt-left fl">
+                <p>热门关键词：<i>|</i><a href="">2.5%蛋鸡产蛋期预混料</a> <i>|</i><a href="">发酵饲料</a> <i>|</i><a href="">雏鸡开口料</a><i>|</i><a href="">液体益生素</a> </p>
+                <p>益生素专区：<i>|</i><a href="">益生素</a> <i>|</i><a href="">液体益生素</a> <i>|</i><a href="">禽用益生素</a><i>|</i><a href="">猪用益生素</a> </p>
+                <p>产 品剂 型：<i>|</i><a href="">液体益生素</a> <i>|</i><a href="">益生素</a> <i>|</i><a href="">发酵开口料</a><i>|</i><a href="">2.5%蛋鸭预混料</a> </p>
+                <p>产品直通车：<i>|</i><a href="">小鸡发酵开口料</a> <i>|</i><a href="">猪用液体益生素</a> <i>|</i><a href="">禽用液体益生素</a><i>|</i><a href="">2.5%蛋鸡产蛋期预混料</a> </p>
+            </div>
+            <div class="txt-right fr">
+             <p>免费咨询电话：<br>    <span class="num">4008-1234-81</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header-bottom">
+<div class="footer comWidth">
+    <div class="link-box">
+        <ul class="clearfloat">
+            <li><a href="">舜和首页</a> </li>
+            <li><a href="">益生素</a> </li>
+            <li><a href="">发酵饲料</a> </li>
+            <li><a href="">脱霉剂</a> </li>
+            <li><a href="">粪便发酵剂</a> </li>
+            <li><a href="">客户实证</a> </li>
+            <li><a href="">舜和咨询</a> </li>
+            <li><a href="">关于舜和</a> </li>
+            <li><a href="">联系我们</a> </li>
+        </ul>
+    </div>
+    <div class="mid-box">
+   <div class="QR-code">
+       <dl class="fl">
+           <dt><img src="images/buchong_03.jpg" alt=""></dt>
+           <dd>舜河首页</dd>
+       </dl>
+       <dl class="fl">
+           <dt><img src="images/buchong_07.jpg" alt=""></dt>
+           <dd>总经理微信号</dd>
+       </dl>
+       <dl class="fl">
+           <dt><img src="images/buchong_05.jpg" alt=""></dt>
+           <dd>舜河微信公众号</dd>
+       </dl>
+   </div>
+   <div class="summary-txt fl">
+       <p>济南舜和农牧—中国畜牧业电商第一品牌，10年专业生产益生素、预混料、发酵饲料、脱霉剂、粪便发酵剂，为规模养殖场提供生态养殖系统解决方案，服务国内外百万用户</p>
+       <p class="free-num">免费咨询热线: 4008-1234-81 , 非工作时间电话： 13325138581</p>
+   </div>
+    </div>
+</div>
+</div>
+<div class="copyright">
+    <div class="green-line">
+    </div>
+    <div class="copyright-txt">
+           <div class="copyright-txt-content comWidth">
+               <p class="fl">网站备案号：鲁ICP备1101100号<br>站长统计版权所有：济南舜和农牧发展有限公司</p>
+               <p class="p2 fl">友情链接<br><a href="">申请友情链接</a> | <a href="">农民网</a> | <a href="">中国禽病网</a> | <a href="">中国饲料行业信息网</a> | <a href="">更多>></a></a> </p>
+           </div>
+    </div>
+</div>
+
+</body>
+</html>

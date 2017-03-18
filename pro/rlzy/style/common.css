@@ -1,0 +1,163 @@
+.comWidth{
+    width: 1000px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*header²¿·Ö*/
+.header{
+    height: 90px;
+}
+.header-logo{
+    padding-top: 18px;
+    height: 72px;
+    width: 172px;
+}
+.header-nav{
+    width: 828px;
+    height: 90px;
+}
+.header-nav .header-nav-top{
+    float: right;
+    padding-top: 18px;
+    height: 26px;
+    width: 433px;
+    padding-right: 18px;
+}
+.header-nav .header-nav-top ul li{
+    float: left;
+    height:27px;
+}
+.header-nav .header-nav-top ul li a{
+    color: #909090;
+     line-height: 18px;
+
+}
+.header-nav .header-nav-top ul li.zy{
+
+    background: url("../images/index_06.jpg") no-repeat;
+    padding-left: 22px;
+    padding-right: 30px;
+}
+.header-nav .header-nav-top ul li.sc{
+    background: url("../images/index_08.jpg") no-repeat;
+    padding-left: 22px;
+    padding-right: 28px;
+}
+.header-nav .header-nav-top ul li span{
+
+
+}
+.header-nav .header-nav-top ul li.num{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+   line-height: 17px;
+
+}
+.header-nav .header-main-nav{
+    height: 42px;
+    width: 800px;
+    padding-left: 28px;
+}
+.header-nav .header-main-nav ul li.out{
+    float: left;
+    width: 84px;
+    height: 45px;
+    position: relative;
+}
+.header-nav .header-main-nav ul li.out:hover{
+     background-color: red;
+}
+.header-nav .header-main-nav ul li.out:hover ul.inside{
+    display: block;
+    z-index:1
+}
+.header-nav .header-main-nav ul li.out:hover a{
+    color: white;
+}
+.header-nav .header-main-nav ul li.out:hover ul li a{
+    color:#5a5a5a;
+}
+.header-nav .header-main-nav ul li.out a{
+    padding: 0 14px;
+    font-family: Î¢ÈíÑÅºÚ;
+    line-height: 40px;
+    font-size: 14px;
+}
+.header-nav .header-main-nav ul li.out ul.inside{
+  position: absolute;
+    left: 0px;
+    top: 45px;
+    height: auto;
+    width: auto;
+   display: none;
+}
+.header-nav .header-main-nav ul li.out ul.inside li{
+    border: 1px solid #e0e0e0;
+    float: none;
+    height: 28px;
+    background-color: white;
+   width: 82px;
+    text-align: center;
+}
+.header-nav .header-main-nav ul li.out ul.inside li a{
+    display: block;
+    font-size: 12px;
+    padding: 0 11px;
+    font-family: Î¢ÈíÑÅºÚ;
+    line-height: 28px;
+
+}
+
+/*Ö÷Í¼*/
+.index-main-pic{
+    position: relative;
+    background: url("../images/index_17.jpg")left center no-repeat;
+    margin: 0 auto;
+    height: 442px;
+
+}
+.index-main-pic .Words{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+
+}
+.index-main-pic .Words p.dream{
+    color: #b80003;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+     top:10px;
+    text-shadow: 1px 2px 1px #5aa0c1;
+}
+.index-main-pic .Words p{
+    position: relative;
+    color: white;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 60px;
+    text-shadow: 1px 2px 3px #003c57;
+}
+
+.index-main-pic .Words p span{
+    font-size: 100px;
+}
+.index-main-pic .circle{
+    position: absolute;
+     bottom: 15px;
+    left: 48%;
+}
+.index-main-pic .circle .cir-1{
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 15px;
+}
