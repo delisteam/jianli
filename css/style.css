@@ -267,12 +267,12 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	bottom: 0px;
 	z-index: 1
 }
 
 .home-bg img {
-	max-width: none
+	max-width: 100%
 }
 
 .loading {
@@ -414,7 +414,7 @@ body {
 }
 
 .section-about {
-	background: url(../images/bg-tile.jpg) center center
+	background: url(../images/bg-tile.jpg) center center ;
 }
 
 .section-about .about-content h1 {
@@ -425,17 +425,20 @@ body {
 .section-about .about-content .introli {
 	width: 100%;
 	margin-left: 400px;
-	line-height: 150%
+	line-height: 200%;
+	margin-top: 20px;
 }
 
 .section-about .about-content .introli .bio-text {
-	opacity: 0
+	opacity: 0;
+	color: #454545;
 }
 
 .section-about .about-content .introli .left_icon {
 	display: inline-block;
 	width: 100px;
-	height: 100px
+	height: 100px;
+
 }
 
 .section-about .about-content .introli .left_icon .bio-icon-1 {
@@ -454,19 +457,20 @@ body {
 }
 
 .section-about .about-content .introli .right_content .bio-text-1 {
-	margin-left: -210px;
+	margin-left: -250px;
 	-webkit-animation: bio-text-in .3s ease-out .6s 1 forwards;
 	-moz-animation: bio-text-in .3s ease-out .6s 1 forwards
+
 }
 
 .section-about .about-content .introli .right_content .bio-text-2 {
-	margin-left: -210px;
+	margin-left: -250px;
 	-webkit-animation: bio-text-in .3s ease-out .9s 1 forwards;
 	-moz-animation: bio-text-in .3s ease-out .9s 1 forwards
 }
 
 .section-about .about-content .introli .right_content .bio-text-3 {
-	margin-left: -210px;
+	margin-left: -250px;
 	-webkit-animation: bio-text-in .3s ease-out 1.2s 1 forwards;
 	-moz-animation: bio-text-in .3s ease-out 1.2s 1 forwards
 }
@@ -526,7 +530,7 @@ body {
 }
 
 .section-works {
-	background: url(../images/zuopin.jpg) no-repeat
+	background: url(../images/zuopin.jpg) center center;
 }
 
 .button2:hover {
@@ -664,7 +668,7 @@ body {
 }
 
 .section-skill {
-	background: url(../images/04.jpg) center center no-repeat
+	background: url(../images/04.jpg) center center;
 }
 
 .skill-content h1 {
@@ -697,7 +701,7 @@ body {
 }
 
 .section-contact {
-	background: url(../images/concact.jpg) center center no-repeat;
+	background: url(../images/bg-last.jpg) center center ;
 	color: #000
 }
 
@@ -711,12 +715,10 @@ body {
 
 .section-contact .contact-content .left {
 	width: 40%;
-	margin-top: 60px
 }
 
 .section-contact .contact-content .right {
 	width: 50%;
-	margin-top: 60px
 }
 
 .section-contact .contact-content h1 {
