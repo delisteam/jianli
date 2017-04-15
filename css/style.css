@@ -98,7 +98,7 @@ body {
 }
 
 .section h1 {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	font-size: 36px
 }
 
@@ -567,6 +567,7 @@ body {
 
 .works-content h1 {
 	text-align: center;
+	padding-bottom: 30px;
 	color: #000
 }
 
@@ -661,6 +662,7 @@ body {
 	box-shadow: -4px 4px 6px #666
 }
 
+
 .more-link:hover {
 	color: #fff;
 	background: #3d3d3d;
@@ -720,25 +722,24 @@ body {
 .section-contact .contact-content .right {
 	width: 50%;
 }
-
-.section-contact .contact-content h1 {
-	color: #000;
-	margin-bottom: -25px
-}
-
-.section-contact .contact-content .contact-info {
-	margin-top: 20px
-}
+.section-contact .contact-content .right h2{
+margin-bottom:-25px;
+	}
 
 .section-contact .contact-content h2 {
 	color: #000;
-	margin-bottom: 10px;
-	margin-top: 20px
+	margin-bottom: -25px
+	font-size:40px;
 }
 
+.section-contact .contact-content .contact-info {
+	margin-top: 25px
+}
+
+
 .section-contact .contact-content .right ul {
-	list-style-type: square;
-	padding-left: 30px;
+	list-style-type: disc;
+	padding-left: 20px;
 	margin-bottom: 10px;
 	line-height: 1.6;
 	font-size: 18px
